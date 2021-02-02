@@ -1,0 +1,41 @@
+/* Общие стили */
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1110px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear:   both;
+}
+h1 {
+    text-align: center;
+}
+
+/* Изображения */
+.myslide {
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+    background-color: pink;
+    position: relative;
+    overflow: hidden;
+}
+.one, .two {
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all ease 0.2s;
+}
+.one {
+    background-color: yellow;
+}
+.two {
+    background-color: teal;
+}
