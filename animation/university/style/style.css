@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-wrap {
+    text-align: center;
+}
+
+/* university */
+.university {
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    width: 980px;
+    height: 630px;
+}
+
+.university__map {
+    display: block;
+}
+
+.university__student {
+    position: absolute;
+    top: 437px;
+    left: 434px;
+    transition: all ease 1s;
+}
+.student__img {
+    position: relative;
+    transition: all ease 1s;
+    top: 0;
+}
+.student__img:hover {
+    transition: all ease 1s;
+    top: -20px;
+}
+
+
+.university__menu {
+    position: absolute;
+    /* background-color: black; */
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* slider */
+.slider {
+    position: relative;
+    width: 536px;
+    height: 63px;
+    background-image: url('../img/slider-bg.png');
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.slider-wrap {
+    width: 490px;
+    display: flex;
+    overflow: hidden;
+    margin-left: 32px;
+    margin-right: 12px;
+}
+.slider-track {
+    position: relative;
+    display: flex;
+    height: 51px;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 51px;
+    background-color: chocolate;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-prev, .slider-next {
+    position: absolute;
+    width: 14px;
+    height: 27px;
+    /* background-color: crimson; */
+    cursor: pointer;
+}
+.slider-prev {
+    left: 10px;
+    background-image: url('../img/arrow-prev.png');
+}
+.slider-next {
+    right: 12px;
+    background-image: url('../img/arrow-next.png');
+}
+
+/* buttons */
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-chat {
+    width: 65px;
+    height: 60px;
+}
+
+.btn-in-university {
+    width: 202px;
+    height: 63px;
+}
+
+.btn-mail {
+    width: 64px;
+    height: 60px;
+}
+
+.btn-rating {
+    width: 66px;
+    height: 61px;
+}
+
+/* pop-up */
+.pop-up {
+    position: absolute;
+    width: 523px;
+    height: 455px;
+    background-color: #ab7439;
+    top: calc(50% - 227.5px);
+    left: calc(50% - 261.5px);
+    border-radius: 16px;
+    border: 6px solid #8c5a31;
+    box-sizing: border-box;
+    top: -515px;
+    transition: top ease 2s;
+}
+.pop-up__title {
+    position: absolute;
+    background-image: url('../img/raiting-title-bg.png');
+    width: 264px;
+    height: 33px;
+    left: calc(50% - 132px);
+    top: -19px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.pop-up__close {
+    width: 26px;
+    height: 26px;
+    background-color: brown;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-image: url('../img/rating-close.png');
+    cursor: pointer;
+}
+
+.rating {
+    width: 464px;
+    height: 324px;
+    background-color: #8c5a31;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 232px);
+    border-radius: 16px;
+}
+
+.rating__wrap {
+    width: 403px;
+    height: 262px;
+    margin: 0 auto;
+    margin-top: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.rating__title {
+    display: flex;
+    align-items: center;
+    background-image: url('../img/rating-table__title-bg.png');
+    height: 30px;
+    margin-bottom: 8px;
+}
+.rating__title-place {
+    width: 65px;
+    margin-right: 30px;
+}
+.rating__title-name {
+    margin-left: 5px;
+}
+.rating__title-points {
+    width: 80px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.rating__item {
+    display: flex;
+    align-items: center;
+    height: 29px;
+    background-image: url('../img/rating__item-bg.png');
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+}
+.rating__item-place {
+    width: 65px;
+}
+.rating__item-img img {
+    display: block;
+    width: 30px;
+    height: 29px;
+}
+.rating__item-name {
+    margin-left: 5px;
+}
+.rating__item-points {
+    width: 80px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.friends {
+    background: none;
+    background-color:orange;
+}
