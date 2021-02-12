@@ -1,7 +1,6 @@
 const goStudent = () => {
     const universityStudent = document.querySelector('.university__student')
     const btnInUniversity = document.querySelector('.btn-in-university')
-    const btnInUniversity
 
     coordinatesStudent = [
         [437, 434],
