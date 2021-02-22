@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rect {
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 10px solid #000;
+}
+.rect--left {
+    border-color: #2ecc71;
+}
+.rect--right {
+    border-color: #e74c3c;
+}
