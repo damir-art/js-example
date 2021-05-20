@@ -11,3 +11,5 @@ po_modalClose.addEventListener('click', function () {
     po_overlay.classList.add('display-none')
     console.log('Класс добавлен')
 })
+
+/* Еще нужно убрать скролл */
