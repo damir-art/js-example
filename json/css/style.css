@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: #ecf0f1;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.list {
+    display: flex;
+}
+.character {
+    width: 200px;
+    min-height: 200px;
+    background-color: #bdc3c7;
+    margin-right: 16px;
+}
+.character__name {
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+}
+.contrpick, .antipick {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 0;
+}
+.contrpick{
+    background-color: #2ecc71;
+}
+.antipick {
+    background-color: #e74c3c;
+}
+.contrpick__item, .antipick__item {
+    padding: 2.5px 0;
+}
